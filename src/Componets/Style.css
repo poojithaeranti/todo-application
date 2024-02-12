@@ -1,0 +1,239 @@
+.heading {
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.buttonAddTask {
+    background-color: blue;
+    width: 130px;
+    height: 43px;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: none;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.flexContiner {
+    display: flex;
+    justify-content: center;
+    /* gap: 350px; */
+    /* justify-self: flex-end; */
+    /* width: 550px; */
+    gap: 150px;
+}
+
+.drapDown {
+    height: 43px;
+    width: 150px;
+    font-size: 18px;
+    background-color: LightGray;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    opacity: 0.8;
+}
+
+.spaceToAddTask {
+    justify-self: flex-end;
+    margin-left: 300px;
+}
+
+.addtodo {
+    font-size: 25px;
+    opacity: 0.6;
+    color: black;
+    text-align: start;
+    padding: 20px;
+    /* margin-left: 25px; */
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    /* background-color: black; */
+    margin-left: 20px;
+    opacity: 0.5;
+    line-height: 30px;
+}
+
+.textbar {
+    height: 40px;
+    width: 390px;
+    margin-left: 20px;
+    /* line-height: 50px; */
+    margin-bottom: 20px;
+}
+
+.cancelButton {
+    width: 130px;
+    height: 43px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    /* opacity: 0.5; */
+    color: #646681;
+    background-color: #CCCDDE;
+    cursor: pointer;
+    margin-left: 280px;
+    position: absolute;
+    top: 350px;
+    /* margin-bottom: 250px; */
+}
+
+.backGroundForm {
+    background-color: #ecedf6;
+    width: 450px;
+    height: 380px;
+    margin-top: 40px;
+    border-radius: 8px;
+    /* pacity: 0.3; */
+}
+
+.backgroundForTodo {
+    background-color: #ecedf6;
+    width: 750px;
+    height: 80px;
+    border-radius: 16px;
+    margin-top: 20px;
+    position: relative;
+    /* margin-left: 15px; */
+}
+
+.cancelX {
+    background-color: #EEEEEE;
+    padding: 5px;
+}
+
+.cancelX:hover {
+    background-color: red;
+}
+
+.hiddenText {
+    background-color: #DEDFE1;
+    width: 100px;
+    height: 30px;
+    /* margin-left:; */
+    border-radius: 8px;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 25px;
+    left: 45%;
+    opacity: 0.8;
+}
+
+.backgroundColorForTodo {
+    background-color: #EEEEEE;
+    width: 750px;
+    border-radius: 16px;
+}
+
+.todoflex {
+    display: flex;
+    width: 700px;
+    margin-left: 20px;
+    height: 70px;
+}
+
+.makeaToskFlex {
+    display: flex;
+    width: 580px;
+    background-color: #fff;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.setDate {
+    text-align: start;
+    margin-left: 10px;
+}
+
+.tasktext {
+    font-weight: 700;
+    width: 150px;
+}
+
+.tomoveFlexelment {
+    width: 150px;
+    font-size: 13px;
+    color: #585858;
+}
+
+.buttonAndedit {
+    margin-top: 15px;
+    display: flex;
+    background-color: #fff;
+    height: 50px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+.inputBox {
+    height: 25px;
+    width: 25px;
+    /* color: red; */
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.deleButton {
+    margin-right: 8px;
+    margin-top: 10px;
+    background-color: #EEEEEE;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.toAddTodo {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.confirm {
+    margin-top: 20px;
+    background-color: blue;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: #FFF;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.confirm:hover {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 0px;
+}
+
+.deletecancel {
+    background-color: #CCCDDE;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 50px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.deletecancel:hover {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 0px;
+}
